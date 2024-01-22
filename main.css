@@ -1,0 +1,42 @@
+/* in index.html we have an id called navbar and this is where we style it*/
+#navbar { 
+    background-color: #f9a857;
+    display: flex; /* allows easy way to add columns and rows*/
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 25px;
+}
+
+.title a {
+    color: white;
+    font-size: 35px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-buttons a {
+    color: white;
+    font-size: 28px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.cell {
+    width: 100px;
+    padding: 10px;
+    border: 1px black solid;
+    background-color: #f1f1f1;
+}
+.table {
+    width: 650px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1e90ff;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
